@@ -1,8 +1,17 @@
 import React from 'react'
+import List from './components/List'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <List text="Home" />
+      <List text="About" />
+      <List text="Service" />
+      <List text="Portfolio" />
+      <List text="Price" />
+      <List text="Blog" />
+
+    </>
   )
 }
 
