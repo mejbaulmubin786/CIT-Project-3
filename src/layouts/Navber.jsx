@@ -11,7 +11,7 @@ const Navber = () => {
   return (
     <nav>
       <Container>
-        <Flex>
+        <Flex className="items-center justify-between">
           <Image src={Logo} />
           <List text="Home" />
           <List text="About" />
