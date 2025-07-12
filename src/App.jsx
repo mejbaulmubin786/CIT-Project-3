@@ -1,21 +1,10 @@
 import React from 'react'
-import List from './components/List'
-import Button from './components/Button'
-import Image from './components/Image'
-import Logo from './assets/logo.png'
+import Navber from './layouts/Navber'
 
 const App = () => {
   return (
     <>
-      <Image src={Logo} />
-      <List text="Home" />
-      <List text="About" />
-      <List text="Service" />
-      <List text="Portfolio" />
-      <List text="Price" />
-      <List text="Blog" />
-      <Button text="Contact Us" />
-
+      <Navber />
 
     </>
   )
