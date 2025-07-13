@@ -9,16 +9,18 @@ import Flex from './Flex'
 const Navber = () => {
 
   return (
-    <nav>
+    <nav className='bg-secondary py-[18px]'>
       <Container>
         <Flex className="items-center justify-between">
           <Image src={Logo} />
+          <ul className='flex gap-x-8'>
           <List text="Home" />
           <List text="About" />
           <List text="Service" />
           <List text="Portfolio" />
           <List text="Price" />
           <List text="Blog" />
+          </ul>
           <Button text="Contact Us" />
         </Flex>
 
