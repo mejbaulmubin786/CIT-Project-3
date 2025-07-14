@@ -9,7 +9,7 @@ import Flex from './Flex'
 const Navber = () => {
 
   return (
-    <nav className='bg-secondary py-[18px]'>
+    <nav className='bg-[#160c6d80] py-[18px] absolute top-0 left-0 z-10 w-full'>
       <Container>
         <Flex className="items-center justify-between">
           <Image src={Logo} />
