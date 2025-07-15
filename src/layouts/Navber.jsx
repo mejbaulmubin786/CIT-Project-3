@@ -4,8 +4,8 @@ import Button from '../components/Button'
 import Image from '../components/Image'
 import Logo from '../assets/logo.png'
 
-import Container from './Container'
-import Flex from './Flex'
+import Container from '../components/Container'
+import Flex from '../components/Flex'
 const Navber = () => {
 
   return (
