@@ -16,6 +16,7 @@ export default {
         'thrid': "#141135",
         'four': "#726E9E",
         'five': "#F6F5FF",
+        'box': "#C4C4C4",
       },
       maxWidth: {
         "container": "1170px"
