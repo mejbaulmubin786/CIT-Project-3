@@ -2,7 +2,7 @@ import React from 'react'
 
 const Div = ({className}) => {
   return (
-    <div className={`bg-box rounded-lg ${className}`}></div>
+    <div className={`bg-box rounded-[20px] ${className}`}></div>
   )
 }
 
