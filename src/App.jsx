@@ -2,6 +2,10 @@ import React from 'react'
 import Navber from './layouts/Navber'
 import Banner from './layouts/Banner'
 import Services from './layouts/Services'
+import Feature from './layouts/Feature'
+import ToggleButton from './components/ToggleButton'
+import OverlappingCircles from './components/OverlappingCircles'
+import InteractiveOverlappingCircles from './components/InteractiveOverlappingCircles'
 
 
 const App = () => {
@@ -10,6 +14,11 @@ const App = () => {
       <Navber />
       <Banner />
       <Services />
+      <Feature />
+      <ToggleButton />
+      <OverlappingCircles />
+      <InteractiveOverlappingCircles />
+      
     </>
   )
 }
