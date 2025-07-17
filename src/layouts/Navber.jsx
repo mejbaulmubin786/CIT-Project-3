@@ -13,7 +13,7 @@ const Navber = () => {
       <Container>
         <Flex className="items-center justify-between">
           <Image src={Logo} />
-          <ul className='flex gap-x-8'>
+          <ul className='flex gap-x-[43px]'>
           <List text="Home" />
           <List text="About" />
           <List text="Service" />
