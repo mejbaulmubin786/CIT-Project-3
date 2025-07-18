@@ -7,7 +7,7 @@ import ServiceCard from '../components/ServiceCard'
 
 const Services = () => {
   return (
-    <section>
+    <section className='bg-[#F9F9FB]'>
       <Container className=''>
         <Flex className='gap-x-[30px] mt-[-151px]'>
           <Div className={`w-[270px] h-[350px] mt-[28px]`} />
@@ -16,7 +16,7 @@ const Services = () => {
           <Div className={`w-[270px] h-[482px] mt-[34px]`} />
         </Flex>
       </Container>
-      <Container className='mt-[100px] mb-[100px]'>
+      <Container className='py-[100px]'>
         <Flex>
           <ServiceCard title="53k" text="happy clients" />
           <ServiceCard title="10k" text="Project Done" />

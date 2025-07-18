@@ -15,13 +15,13 @@ const InteractiveOverlappingCircles = () => {
       {/* সবুজ বৃত্ত */}
       <div
         className={`absolute top-1/2 -translate-y-1/2 w-8 h-8 bg-green-500 rounded-full transition-all duration-300
-          ${isOn ? 'left-full -translate-x-[calc(100%+0.5rem)]' : 'left-0'}`} // isOn হলে ডানদিকে সরে যাবে
+          ${isOn ? 'left-full -translate-x-[calc(100%+2px)]' : 'left-0'}`} // isOn হলে ডানদিকে সরে যাবে
       ></div>
 
       {/* হালকা বেগুনি/ধূসর বৃত্ত */}
       <div
-        className={`absolute top-1/2 -translate-y-1/2 w-8 h-8 bg-purple-200 rounded-full opacity-80 transition-all duration-300
-          ${isOn ? 'left-1' : 'left-5'}`} // isOn হলে বাম দিকে, না হলে ওভারল্যাপ পজিশনে
+        className={`absolute top-1/2 -translate-y-1/2 w-8 h-8 bg-purple-200 rounded-full transition-all duration-300
+          ${isOn ? 'left-1' : 'left-3'}`} // isOn হলে বাম দিকে, না হলে ওভারল্যাপ পজিশনে
       ></div>
     </div>
   );
