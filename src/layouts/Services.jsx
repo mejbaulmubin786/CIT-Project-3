@@ -3,6 +3,8 @@ import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Div from '../components/Div'
 
+import ServiceCard from '../components/ServiceCard'
+
 const Services = () => {
   return (
     <section>
@@ -16,10 +18,10 @@ const Services = () => {
       </Container>
       <Container className='mt-[100px] mb-[100px]'>
         <Flex>
-          <div className='flex-1 text-center relative before:absolute before:w-[2px] before:h-full before:bg-box before:right-0'><span className='font-open text-[68px] font-extrabold text-primary block'>53k</span><span className='font-open text-[36px] font-extrabold text-thrid block'>Happy Client</span></div>
-          <div className='flex-1 text-center relative before:absolute before:w-[2px] before:h-full before:bg-box before:right-0'><span className='font-open text-[68px] font-extrabold text-primary block'>10k</span><span className='font-open text-[36px] font-extrabold text-thrid block'>Project Done</span></div>
-          <div className='flex-1 text-center relative before:absolute before:w-[2px] before:h-full before:bg-box before:right-0'><span className='font-open text-[68px] font-extrabold text-primary block'>120k</span><span className='font-open text-[36px] font-extrabold text-thrid block'>Gets Award</span></div>
-          <div className='flex-1 text-center relative last:before:hidden'><span className='font-open text-[68px] font-extrabold text-primary block'>16k</span><span className='font-open text-[36px] font-extrabold text-thrid block'>Operated Years</span></div>
+          <ServiceCard title="53k" text="happy clients" />
+          <ServiceCard title="10k" text="Project Done" />
+          <ServiceCard title="120k" text="Gets Award" />
+          <ServiceCard className="before:bg-transparent" title="16k" text="Operated Years" />
         </Flex>
       </Container>
     </section>
