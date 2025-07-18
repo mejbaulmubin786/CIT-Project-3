@@ -6,6 +6,7 @@ import Feature from './layouts/Feature'
 import ToggleButton from './components/ToggleButton'
 import OverlappingCircles from './components/OverlappingCircles'
 import InteractiveOverlappingCircles from './components/InteractiveOverlappingCircles'
+import Cards from './layouts/Cards'
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Banner />
       <Services />
       <Feature />
+      <Cards />
       <ToggleButton />
       <OverlappingCircles />
       <InteractiveOverlappingCircles />

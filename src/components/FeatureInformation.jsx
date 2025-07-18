@@ -8,7 +8,7 @@ const FeatureInformation = ({text, className}) => {
     <div>
       <Flex>
         <InteractiveOverlappingCircles /> 
-        <CommonText className={'${className}'} text={text} />
+        <CommonText text={text} />
       </Flex>
       </div>
   )
