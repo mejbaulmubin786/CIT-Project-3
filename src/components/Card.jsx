@@ -4,10 +4,10 @@ import CommonHeading from './CommonHeading'
 import AnotherHeading from './AnotherHeading'
 
 
-const Card = ({cardTitle, cardText, buttonText, type}) => {
+const Card = ({className, cardTitle, cardText, buttonText, type, img}) => {
   return (
-    <div>
-      {type?<AnotherHeading title={cardTitle} />:<CommonHeading title={cardTitle} />}
+    <div className={`${className}`}>
+      {type?<AnotherHeading img={img} title={cardTitle} />:<CommonHeading title={cardTitle} />}
       <p className='whitespace-pre-line'>{cardText}</p>
       <Button text={`${buttonText}`} />
     </div>
