@@ -1,12 +1,15 @@
 import React from 'react'
 import Button from './Button'
+import CommonHeading from './CommonHeading'
+import AnotherHeading from './AnotherHeading'
 
-const Card = ({cardTitle, cardText, buttonText}) => {
+
+const Card = ({cardTitle, cardText, buttonText, type}) => {
   return (
     <div>
-      <h2>{cardTitle}</h2>
-      <p>{cardText}</p>
-      <Button className={'whitespace-pre-line'} text={`${buttonText}`} />
+      {type?<AnotherHeading title={cardTitle} />:<CommonHeading title={cardTitle} />}
+      <p className='whitespace-pre-line'>{cardText}</p>
+      <Button text={`${buttonText}`} />
     </div>
   )
 }
