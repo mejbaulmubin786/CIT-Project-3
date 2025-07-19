@@ -17,7 +17,7 @@ const Cards = () => {
   const  card5 = `We are now a team of Strategists,\nengineers, designers, and marketers\nwho both use and develop technology`;
   const  card6 = `We are now a team of Strategists,\nengineers, designers, and marketers\nwho both use and develop technology`;
   return (
-    <section>
+    <section className='py-[100px]'>
       <Container>
         <Grid className="grid-cols-3">
         <Card cardTitle="What We Do" cardText={card1} buttonText="Contact Us" type={false} />
