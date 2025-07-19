@@ -10,18 +10,18 @@ import FeatureInformation from '../components/FeatureInformation'
 
 const Feature = () => {
   return (
-    <section>
+    <section className='bg-[#FDFDFD]'>
 
-      <Container className="bg-[#FDFDFD} py-24">
+      <Container className="py-24">
         <Flex>
-          <div className='w-1/2'>
+          <div className='w-1/2 pl-7'>
             <FeatureInformation text="We solve real world problems through people and the web" />
             <FeatureInformation text="We make processes and technology work efficiently together" />
             <FeatureInformation text="We advance improve existing technology through research and development" />
             <FeatureInformation text="We develop long-lasting and Scalable Solutions relationships partnerships" />
           </div>
           <div className='w-1/2 pl-[100px]'>
-            <CommonHeading title="Why Choose Us"/>
+            <CommonHeading className="pb-5" title="Why Choose Us"/>
             <CommonText className="pb-10" text ={`We are now a team of strategists, 
               engineers, designers, and marketers who 
               both use and develop technology for a 
