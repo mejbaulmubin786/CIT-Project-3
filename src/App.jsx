@@ -3,10 +3,8 @@ import Navber from './layouts/Navber'
 import Banner from './layouts/Banner'
 import Services from './layouts/Services'
 import Feature from './layouts/Feature'
-import ToggleButton from './components/ToggleButton'
-import OverlappingCircles from './components/OverlappingCircles'
-import InteractiveOverlappingCircles from './components/InteractiveOverlappingCircles'
 import Cards from './layouts/Cards'
+import Plans from './layouts/Plans'
 
 
 
@@ -18,9 +16,7 @@ const App = () => {
       <Services />
       <Feature />
       <Cards />
-      <ToggleButton />
-      <OverlappingCircles />
-      <InteractiveOverlappingCircles />
+      <Plans />
       
     </>
   )
