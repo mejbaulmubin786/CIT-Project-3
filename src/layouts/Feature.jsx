@@ -10,7 +10,7 @@ import FeatureInformation from '../components/FeatureInformation'
 
 const Feature = () => {
   return (
-    <section className='bg-[#FDFDFD]'>
+    <section className='bg-[#FDFDFD] py-[100px]'>
 
       <Container className="py-24">
         <Flex>

@@ -5,6 +5,7 @@ import Services from './layouts/Services'
 import Feature from './layouts/Feature'
 import Cards from './layouts/Cards'
 import Plans from './layouts/Plans'
+import Footer from './layouts/Footer'
 
 
 
@@ -17,6 +18,8 @@ const App = () => {
       <Feature />
       <Cards />
       <Plans />
+      <Footer />
+
       
     </>
   )
