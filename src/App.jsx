@@ -9,6 +9,8 @@ import Plans from './layouts/Plans'
 import AboutUs from './layouts/AboutUs'
 import Footer from './layouts/Footer'
 
+import Testimonials from './layouts/Testimonials'
+
 
 
 const App = () => {
