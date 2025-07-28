@@ -8,7 +8,7 @@ const List = ({ text, className }) => {
     <li className={`text-[#EFF4FA] text-lg font-semibold font-open hover:text-[#1BBF00] duration-300 cursor-pointer list-none ${className}`}>
       {text}
       {/* সঠিক সিনট্যাক্স: ইম্পোর্ট করা আইকনটি props হিসেবে পাস করুন */}
-      <FontAwesomeIcon icon={faAngleDown} />
+      <FontAwesomeIcon style={{ marginLeft: '8px' }} icon={faAngleDown} />
     </li>
   );
 };
