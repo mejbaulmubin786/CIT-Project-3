@@ -4,6 +4,7 @@ import Flex from '../components/Flex'
 import CommonHeading from '../components/CommonHeading'
 import CardAboutUs from '../components/CardAboutUs'
 import Profile1 from '../assets/profile1.png'
+import Profile2 from '../assets/profile2.jpg'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -23,6 +24,7 @@ const AboutUs = () => {
             </div>
             <Flex className="justify-center">
               <CardAboutUs src={Profile1} text={`Lesser Replenish bearing they’re him cattle kind dominion. You\nwhich fill place. Land she’d subdue divided gathering blessed\nseasons it. Without, wherein days.`} />
+              <CardAboutUs src={Profile2} text={`Lesser Replenish bearing they’re him cattle kind dominion. You\nwhich fill place. Land she’d subdue divided gathering blessed\nseasons it. Without, wherein days.`} />
             </Flex>
             <div className='w-[64px] h-[64px] bg-primary rounded-full absolute top-[50%] right-[-100px] translate-y-[-50%] flex items-center justify-center'>
             <FontAwesomeIcon className='text-xl text-white' icon={faAngleRight} />
