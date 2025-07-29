@@ -8,7 +8,7 @@ import CommonText from './CommonText';
 const CardAboutUs = ({ src, text }) => {
   return (
     <div className="flex flex-col items-center w-[1080px] h-[461px] bg-[#FFFFFF] rounded-[20px] drop-shadow-xl">
-      <div className="rounded-full overflow-hidden mt-[-73px] drop-shadow-2xl">
+      <div className="w-[147px] h-[147px] rounded-full overflow-hidden mt-[-73px] drop-shadow-2xl">
         <Image src={src} />
       </div>
       <Flex className="justify-center items-center gap-2 mt-[45px] mb-[33px] text-yellow-500">
